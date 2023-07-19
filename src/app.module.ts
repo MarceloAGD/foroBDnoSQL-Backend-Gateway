@@ -12,7 +12,7 @@ import { GraphQLModule } from '@nestjs/graphql';
         supergraphSdl: new IntrospectAndCompose ({
           subgraphs:[
             {name: 'mongodb', url: 'http://localhost:4001/graphql'},
-            {name: 'neo4j', url: 'http://localhost:4002/graphql'},
+            {name: 'neo4j', url: 'http://localhost:4002/graphql'},           
           ]
         })
       }
